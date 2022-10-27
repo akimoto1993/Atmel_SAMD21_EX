@@ -1,0 +1,63 @@
+{
+  "packages":
+  [
+    {
+      "name": "???",
+      "maintainer": "???",
+      "websiteURL": "???",
+      "email" : "???",
+      "platforms":
+      [
+        {
+          "name": "Atmel SAMD21-EX Boards",
+          "architecture": "samd",
+          "version": "0.0.1",
+		  
+          "category": "Contributed",
+		  
+          "url": "https://github.com/akimoto1993/Atmel_SAMD21_EX/tree/main/custom_board/SAMD21-EX-0.0.1.zip?raw=true",
+          "archiveFileName": "SAMD21-EX-0.0.1.zip",
+          "checksum": "3d87f895ecae488706efb27685d8b2ca",
+          "size": "177378",
+		  
+          "boards": [
+            {
+              "name": "Atmel SAMD21-EX"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
